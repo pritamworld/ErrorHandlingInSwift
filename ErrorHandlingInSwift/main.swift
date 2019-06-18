@@ -11,6 +11,10 @@ import Foundation
 var e1 = Employee()
 print(e1.employeeId)
 
+e1.deferedExample()
+
+print("--------- DEFERED END ---------")
+
 var e2 = Employee(employeeId: 1, employeeName: "Pritesh", employeeEmail: "p@p.com", employeeSalary: 500)
 
 if let e = e2
